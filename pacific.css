@@ -11,20 +11,20 @@ header, hgroup, nav, footer, figure, figcaption, aside, section, article {
 	display: block;
 }
 body {
-	background-image:url("ptrbackground.jpg");
+	background-image:url("ptrbackground.jpg"); /*Added in the background image for the webpage using provided image*/
 	color: #666666;
 	font-family: Arial, Helvetica, sans-serif;
 }
-nav {
+nav { /*Created a nav element for the bar, and styled it to bold the text*/
 	float: left;
 	list-style-type:none;
 	font-weight:bold;
 }
-nav a {
+nav a { /*Set the text color in the nav bar, and removed the underlines*/
 	color: #000033;
 	text-decoration: none;
 }
-nav ul {
+nav ul { /*Removed the bullets from the nav bar list */
 	font-size: 1.2em;
 	list-style: none;
 }
@@ -34,39 +34,39 @@ nav a:visited {
 nav a:hover {
 	color: #FFFFFF;
 }
-#wrapper{
+#wrapper{ /*Specified the wrapper element and set the minimum width to 600px, and 80% of the page as specified, along with margins and background color*/
 	width: 80%;
 	min-width: 600px;
 	margin-left:auto;
 	margin-right:auto;
 	background-color: skyblue;
 }
-.resort {
+.resort { /*Specified the resort element and bolded the text, and changed the text color*/
 	font-weight:bold;
 	color: rgb(81, 149, 212);
 }
-#content{
+#content{ /*Set up the content element, with the whitte background, chosen margins, and extra padding*/
 	background-color: white;
 	margin-left: 240px;
 	padding-left: 24px;
 	padding-top: 10px;
 	padding-bottom: 42px;
 }
-#content img {
+#content img { /*Adjusted the included image to float left, and added a margin for the text the wraps on the right */
 	float: left;
 	margin-right: 25px;
 }
-#content ul {
+#content ul { /*Changed the list bullets to provided marker.gif*/
 	list-style: inside url(marker.gif);
 }
-h1 {
+h1 { /*Added in the background image, changed the text color, matched the background color with the image, and formatted the background */
 	margin-bottom: 0;
 	padding: 10px;
 	background:url("sunset.jpg");
 	color: white;
 	background-color: #010134;
 	background-position: right;
-	background-repeat: no-repeat;
+	background-repeat: no-repeat; /*The image kept repeating even though stuff I found online says that it is set to a default of not repeat*/
 }
 h2 {
 	color: #3399CC;
@@ -80,7 +80,7 @@ h1, h2 {
 dt {
 	color: #000033;
 }
-footer {
+footer { /*Changed the background to match the white, and formatted the font and margins/padding to match as closely as I can to the given*/
 	font-family: Georgia, "Times New Roman", serif;
 	background-color: white;
 	font-style: italic;
