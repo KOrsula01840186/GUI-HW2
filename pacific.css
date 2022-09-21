@@ -1,3 +1,12 @@
+/*
+File: pacific.css
+GUI HW2 Assignment
+Kevin Orsula, UMASS Lowell Computer Science, kevin_orsula@student.uml.edu
+Copyright (c) 2021 by KOrsula. All rights reserved. May be freely copied or
+excerpted for educational purposes with credit to the author.
+updated by KO on Sept 21 at 12:30 AM
+*/
+
 header, hgroup, nav, footer, figure, figcaption, aside, section, article {
 	display: block;
 }
